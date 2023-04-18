@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(136, 136, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  width: 600px;
+  height: 280px;
+  border: 5px solid rgb(250, 153, 7);
+  background-color: rgb(175, 170, 162);
+}
+
+#drum-machine {
+  width: 99%;
+  height: 99%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-gap: 2;
+}
+
+.btn-wrapper {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: rgb(136, 136, 134);
+  box-shadow: 2px 2px 1px 0.8px rgb(22, 22, 22);
+}
+
+#display {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#display p {
+  padding: 12px;
+  font-weight: 900;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  min-height: 45px;
+  background: rgb(136, 136, 134);
+}
